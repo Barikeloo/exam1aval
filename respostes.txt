@@ -6,3 +6,6 @@
     - nano si.txt
     - grep SI alumnos.txt -n
 }
+4.- mkdir si
+5.- mv si.txt /home/tsmr2a/examen/si
+
