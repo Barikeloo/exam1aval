@@ -1,1 +1,8 @@
 --Açí anirán les respotes--
+
+1.- mkdir examen (ya estamos en la ruta de inicio) 
+2.- cd examen (entramos a la carpeta creada).
+3.- {
+    - nano si.txt
+    - grep SI alumnos.txt -n
+}
