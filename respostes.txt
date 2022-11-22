@@ -11,3 +11,4 @@
 6.- cat alumnos.txt | awk '{print $1, $2, $5}' | sed 's/ /:/' | sed 's/ /-/g' | sed 's/:/ /' | tail -n+2
 7.- grep González Alumnos.txt | awk '{ print $1 " " $2}'| uniq
 8.- sed -i 's/Vicente/Pepe/gi' "Alumnos.txt"
+9.- cat alumnos.txt | awk '{if($4 >= 2010 && $4 <= 2019) print($1, $2, $3, $4, $5)}'
